@@ -1,39 +1,43 @@
-	body {  background: url(kittenbg.gif) repeat #6AAFDA }
+	body { 
+		background: #42515a url(kittenbg.gif) repeat ;
+		backdrop-filter: brightness(120%);
+		color: white;
+	}
 	::-moz-selection {
-	  background: #6AAFDA;
+	  background: #42515a;
 	  color: #fff;
 	}
 	::selection {
-	  background: #6AAFDA;
+	  background: #42515a;
 	  color: #fff;
 	}
 	
 	#main {
 	  margin: 50px auto;
-	  background-color: #fff;
+	  background-color: #21272b;
 	  width: 1000px;
 	  padding: 1em 2em 2em 2em;
 	  border: 1px solid #5896bc;
 	  -webkit-border-radius: 20px;
 	  -moz-border-radius: 20px;
 	  border-radius: 20px;
-	  -webkit-box-shadow: 0px 0px 5px 2px #5896bc;
-	  -moz-box-shadow: 0px 0px 5px 2px #5896bc;
-	  box-shadow: 0px 0px 5px 2px #5896bc;
+	  -webkit-box-shadow: 0px 0px 5px 2px #5896bc64;
+	  -moz-box-shadow: 0px 0px 5px 2px #5896bc64;
+	  box-shadow: 0px 0px 5px 2px #5896bc64;
 	}
 	
 	#about {
 	  margin: 50px auto;
-	  background-color: #fff;
+	  background-color: #21272b;
 	  width: 1000px;
 	  padding: 1em 2em 2em 2em;
 	  border: 1px solid #5896bc;
 	  -webkit-border-radius: 20px;
 	  -moz-border-radius: 20px;
 	  border-radius: 20px;
-	  -webkit-box-shadow: 0px 0px 5px 2px #5896bc;
-	  -moz-box-shadow: 0px 0px 5px 2px #5896bc;
-	  box-shadow: 0px 0px 5px 2px #5896bc;
+	  -webkit-box-shadow: 0px 0px 5px 2px #5896bc64;
+	  -moz-box-shadow: 0px 0px 5px 2px #5896bc64;
+	  box-shadow: 0px 0px 5px 2px #5896bc64;
 	}
 	
 	img {
@@ -43,6 +47,9 @@
 	  max-width: 100%;
 	}
 	textarea {
+		color:#fff;
+		border: 1px solid #5896bc;
+		background-color: #1b1d1f;
 	  width: 580px;
 	  height: 400px;
 	  overflow: auto;
@@ -85,7 +92,7 @@
 	.warning h2 {  font-size: 2em }
 	.warning a {
 	  font-size: 1.5em;
-	  color: #000;
+	  color: #fff;
 	  cursor: pointer;
 	}
 	.hidelink {
@@ -106,7 +113,7 @@
 	}
 	#nextKitten {  display: none }
 	#kittenCredit {
-	  color: #999;
+	  color: #c7c7c7;
 	  width: 100%;
 	  font-size: .8em;
 	  margin-top: 407px;
